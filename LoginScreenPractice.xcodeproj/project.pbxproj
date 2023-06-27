@@ -56,15 +56,39 @@
 		819E666B2A4B315100D134B1 /* LoginScreenPractice */ = {
 			isa = PBXGroup;
 			children = (
+				819E66802A4B317A00D134B1 /* View */,
+				819E66812A4B318100D134B1 /* Controller */,
+				819E66822A4B318B00D134B1 /* SupportingFiles */,
+			);
+			path = LoginScreenPractice;
+			sourceTree = "<group>";
+		};
+		819E66802A4B317A00D134B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				819E66722A4B315100D134B1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		819E66812A4B318100D134B1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				819E66702A4B315100D134B1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		819E66822A4B318B00D134B1 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
 				819E666C2A4B315100D134B1 /* AppDelegate.swift */,
 				819E666E2A4B315100D134B1 /* SceneDelegate.swift */,
-				819E66702A4B315100D134B1 /* ViewController.swift */,
-				819E66722A4B315100D134B1 /* Main.storyboard */,
 				819E66752A4B315300D134B1 /* Assets.xcassets */,
 				819E66772A4B315300D134B1 /* LaunchScreen.storyboard */,
 				819E667A2A4B315300D134B1 /* Info.plist */,
 			);
-			path = LoginScreenPractice;
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
